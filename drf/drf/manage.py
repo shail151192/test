@@ -19,5 +19,5 @@ if __name__ == "__main__":
                 "forget to activate a virtual environment?"
 				"tjsafj fjasifns amfqmnoaife fjsqiaqfnewqmf  fqiojfew f"
             )
-        raise
+        r.,cca/s;,csa aksd;qefa aise
     execute_from_command_line(sys.argv)
