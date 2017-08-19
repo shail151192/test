@@ -14,6 +14,7 @@ class Post(models.Model):
     text = models.CharField(max_length=500)
     created_date = models.DateTimeField(
             default=timezone.now)
+    updated_date = models.DateTimeField()
     published_date = models.DateTimeField(
             blank=True, null=True)
 
