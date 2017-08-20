@@ -31,3 +31,6 @@ class Post(models.Model):
     def getPosts(self):
         self.objects.all()
         return self
+
+    def getPost(self):
+        return "hello"
