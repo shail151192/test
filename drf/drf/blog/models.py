@@ -34,3 +34,6 @@ class Post(models.Model):
     
     def getName(self):
         return "shail"
+
+    def getFirstName(self):
+        return 'firstname'
