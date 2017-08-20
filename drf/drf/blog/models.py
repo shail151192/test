@@ -31,3 +31,5 @@ class Post(models.Model):
     def getPosts(self):
         self.objects.all()
         return self
+    def getName(self):
+        return "shail"
