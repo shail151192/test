@@ -11,7 +11,7 @@ from django.utils import timezone
 class Post(models.Model):
     author = models.CharField(max_length=300)
     title = models.CharField(max_length=200)
-    text = models.CharField(max_length=500)
+    text = models.CharField(max_length=500, null=True)
     created_date = models.DateTimeField(
             default=timezone.now)
     updated_date = models.DateTimeField(null=True, blank=True)
